@@ -1,3 +1,72 @@
+/* Mobile (up to 768px) */
+@media (max-width: 768px) {
+  /* Full-width buttons */
+  .cta-btn {
+    
+    margin-top: 10px;
+    font-size: 1rem;
+  }
+
+  /* Stack containers vertically */
+  .container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /* Responsive padding */
+  .section {
+    padding: 15px;
+  }
+
+  /* Images fill the screen width */
+  .responsive-image {
+    width: 100%;
+    height: auto; /* Maintains the aspect ratio */
+  }
+}
+
+/* Tablet (between 768px and 1024px) */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .section {
+    padding: 20px;
+    margin: 0 auto;
+  }
+
+  /* Slightly larger font */
+  .cta-btn {
+    font-size: 1.2rem;
+  }
+  .INTROBLOCK {
+    height: 100vh; /* Full viewport height */
+    background-size: cover;
+    background-position: top;
+  }
+}
+
+/* Desktop (1025px and wider) */
+@media (min-width: 1025px) {
+  /* Center content and increase padding */
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .section {
+    padding: 40px;
+  }
+
+  /* Increase button size */
+  .cta-btn {
+    font-size: 1.2rem;
+    padding: 10px 20px;
+  }
+}
+
+
+
+
+
+
 body {
   font-family: Arial, sans-serif;
   margin: 0;
@@ -54,7 +123,6 @@ body {
   display: inline-block;
   animation: shake 0.8s infinite ease-in-out;
   margin-top: 20px;
-  margin-left: -280px;
 }
 @keyframes shake {
   0%, 100% {
@@ -122,11 +190,6 @@ body {
   margin: 0 auto;
   line-height: 1.6;
 }
-.resultsCTA{
-  margin-left: 280px;
-
-}
-
 
 
 .guaranteed-success {
@@ -397,6 +460,7 @@ text-align: left;
 
 .faq-question:hover {
   background-color: pink;
+  color: #333;
 
 }
 
