@@ -6,30 +6,36 @@
     margin-top: 10px;
     font-size: 1rem;
   }
-
-  /* Stack containers vertically */
-  .container {
-    flex-direction: column;
-    align-items: center;
+  body {
+    width: 100vw;
+    overflow-x: hidden;
+    position: fixed; /* This helps prevent bounce scrolling */
   }
 
-  /* Responsive padding */
-  .section {
-    padding: 15px;
-  }
-
-  /* Images fill the screen width */
-  .responsive-image {
-    width: 100%;
-    height: auto; /* Maintains the aspect ratio */
-  }
   .INTROBLOCK {
-    height: 100vh; /* Full viewport height */
-    background-size: cover;
-    background-position: top;
-    padding-top: env(safe-area-inset-top); /* Accounts for notch/status bar */
-    padding-bottom: env(safe-area-inset-bottom);
+    width: 100vw;
+    margin: 0;
+    padding: env(safe-area-inset-top) 0 0 0;
+    border-radius: 0; /* Remove border radius on mobile */
   }
+
+  .container, 
+  .section, 
+  .results-images,
+  .why-join-luxco,
+  .guaranteed-success,
+  .services,
+  .faqs,
+  .footer {
+    width: 100vw;
+    margin: 0;
+    padding-left: 0;
+    padding-right: 0;
+    overflow-x: hidden;
+  }
+
+
+
 }
 
 /* Tablet (between 768px and 1024px) */
