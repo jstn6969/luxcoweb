@@ -2,7 +2,7 @@
 @media (max-width: 768px) {
   /* Full-width buttons */
   .cta-btn {
-    
+
     margin-top: 10px;
     font-size: 1rem;
   }
@@ -23,6 +23,13 @@
     width: 100%;
     height: auto; /* Maintains the aspect ratio */
   }
+  .INTROBLOCK {
+    height: 100vh; /* Full viewport height */
+    background-size: cover;
+    background-position: top;
+    padding-top: env(safe-area-inset-top); /* Accounts for notch/status bar */
+    padding-bottom: env(safe-area-inset-bottom);
+  }
 }
 
 /* Tablet (between 768px and 1024px) */
@@ -36,11 +43,7 @@
   .cta-btn {
     font-size: 1.2rem;
   }
-  .INTROBLOCK {
-    height: 100vh; /* Full viewport height */
-    background-size: cover;
-    background-position: top;
-  }
+
 }
 
 /* Desktop (1025px and wider) */
@@ -63,8 +66,16 @@
 }
 
 
-
-
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; /* Prevents horizontal scrolling */
+}
+img, .container, .section, .results-images {
+  max-width: 100%;
+  width: 100%; /* This will ensure they don’t exceed the viewport width */
+  box-sizing: border-box;
+}
 
 
 body {
@@ -455,12 +466,12 @@ text-align: left;
   align-items: center;
   font-weight: 500;
   transition: background-color 0.3s ease;
+  color: #333;
   
 }
 
 .faq-question:hover {
   background-color: pink;
-  color: #333;
 
 }
 
@@ -474,6 +485,7 @@ text-align: left;
   overflow: hidden;
   transition: max-height 0.3s ease-out;
   background-color: pink;
+  color: #333;
 }
 
 .faq-answer.active {

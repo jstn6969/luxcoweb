@@ -17,11 +17,7 @@ function App() {
       <div class="INTROwrapper">
       <section className="INTROBLOCK">
         <div className="INTROBLOCK-content">
-          <h1>We Turn <span className="KEYWORDS">Creators</span> Into <span className="KEYWORDS">St
-
-          <img width="27" height="27" src="https://img.icons8.com/emoji/100000/star-emoji.png" alt="star-emoji"/>
-
-          rs</span></h1>
+          <h1>We Turn <span className="KEYWORDS">Creators</span> Into <span className="KEYWORDS">Stars</span></h1>
 
           <h1>Are You Ready To <span className="KEYWORDS">Shine?</span></h1>
 
