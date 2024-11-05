@@ -23,7 +23,14 @@ function App() {
 
           <p>At <span className="KEYWORDS">Luxco Agency,</span> We Transform Creators Into Stars by <span className="KEYWORDS">Managing, Growing, & Scaling </span>Your 
             Personal Brand. Book A Call With Us Below!</p>
-          <a href="#apply" className="cta-btn">BECOME A MODEL</a>
+        <a 
+          href="https://2xreyjd064i.typeform.com/to/HuOKasjG"
+          target='_blank'
+          rel='noopener noreferrer'
+          className="cta-btn"
+        >
+            BECOME A MODEL
+        </a>
 
         </div>
 
@@ -39,7 +46,17 @@ function App() {
           <img src="https://cdn-ilamcbj.nitrocdn.com/VoJvJPTrAUDIxhbQvjRvVtmtbjLDUFYk/assets/images/optimized/rev-4816283/manageher.io/wp-content/uploads/2024/05/WhatsApp-Image-2024-05-30-at-11.52.19-e1717080798489.jpeg" alt="Result 3" className="results-image" />
          </div>
         <div className="resultsCTA">
-        <a href="#apply" className="cta-btn">BECOME A MODEL</a>
+        <a
+           href="https://2xreyjd064i.typeform.com/to/HuOKasjG"
+           target='_blank'
+           rel='noopener noreferrer'
+           className="cta-btn"
+          >
+            BECOME A MODEL
+        </a>
+
+
+
         </div>
         
       </section>
@@ -51,7 +68,13 @@ function App() {
           <h2 className="guaranteed-header">We Promise You 2000 OnlyFans Subscribers in 180 Days</h2>
           <h3 className="guaranteed-subheader">If we don’t, we’ll give you a $2000 refund!</h3>
 
-          <a href="#apply" className="cta-btn">BECOME A MODEL</a>
+          <a href="https://2xreyjd064i.typeform.com/to/HuOKasjG"
+          target='_blank'
+          rel='noopener noreferrer'          
+          className="cta-btn"
+          >
+            BECOME A MODEL
+            </a>
         </div>
       </section>
 
@@ -147,7 +170,10 @@ function App() {
     </div>
   </div>
 
-  <a href="#apply" className="cta-btn">Join Our Models</a>
+  <a href="https://2xreyjd064i.typeform.com/to/HuOKasjG"
+    target='_blank'
+    rel='noopener noreferrer'
+    className="cta-btn">Join Our Models</a>
 </section>
 
 
